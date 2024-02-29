@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.@nptourism.com</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body style="background-color: rgb(153, 233, 182);">
+    <!DOCTYPE html>
+    <html lang="en-US">
+    <body>
+    
+    <h1 style="color: rgb(4, 4, 4);">Graph View of our website</h1>
+    
+    <div id="piechart"></div>
+    
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+    <script type="text/javascript">
+    // Load google charts
+    google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+    
+    // Draw the chart and set the chart values
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+      ['Task', 'Hours per Day'],
+      ['December', 10],
+      ['Jan', 15],
+      ['Feb', 5],
+      ['Mar', 5],
+      ['Apr', 6],
+      ['May', 4],
+      ['June', 2],
+      ['July', 2],
+      ['Aug', 6],
+      ['Sep', 3],
+      ['Oct', 2],
+      ['Nov', 8]
+    ]);
+    
+      // Optional; add a title and set the width and height of the chart
+      var options = {'title':' turiest visited to our website', 'width':550, 'height':400};
+    
+      // Display the chart inside the <div> element with id="piechart"
+      var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+      chart.draw(data, options);
+    }
+    </script>
+    
+    </body>
+    </html>
+    
+
+    <button onclick="document.getElementById('id01').style.display='block'" style="background-color:rgb(3, 3, 3)" id="loginbutton">Login</button>
+
+<div id="id01" class="modal">
+
+    
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;
+    </span>
+
+  <form class="modal-content animate" action="../html/nphome.html" >
+    <div class="imgcontainer">
+      <img src="https://www.w3schools.com/howto/img_avatar2.png" height="350px" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+       
+       <button type="submit" style="background-color: rgb(49, 173, 80);" >Login</button> 
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn" style="background-color: darkgoldenrod;">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+  
+
+
+<script src="../js/login.js"></script>
+</body>
+</html>

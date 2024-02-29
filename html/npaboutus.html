@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.@nptourism.com</title>
+    <link rel="stylesheet" href="../css/npaboutus.css">
+</head>
+<body>
+  <div >
+    <ul>
+        <a  href="../html/nphome.html" id="home">Home</a>
+      </ul>
+
+      
+      </div>
+    <div class="about-section">
+      
+        <h1>WELCOME TO ABOUT US PAGE</h1>
+        <p>Mr.Pradeep and Mr.Narasimha are Founders of this project  </p>
+        <p>We are going to servive this project for whole INDIA ,present it is only available for Karnataka peoples...</p>
+       </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="../html/IMG-20221218-WA0011.jpg" id="praiamge" alt="Jane"  width="370px" height="300px">
+            <div class="container">
+              <h2>Mr.Pradeep Malipatil</h2>
+              <p class="title">CEO & Founder</p>
+              <p>Full Stack Devaloper and Desginer</p>
+              <p>pradeep170720@gmail.com</p>
+              <p><button class="button" onclick="calltopradeep()">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column" id="Narashima">
+          <div class="card">
+            <img src="../html/narasima.jpg" alt="Mike" id="naraimage" style="width:100%" width="390px" height="300px">
+            <div class="container">
+              <h2>Mr.Narashima katti</h2>
+              <p class="title">CEO and Founder </p>
+              <p>Full Stack Devaloper and Professional Photo Grapher</p>
+              <p>narasimhakatti568@gmail.com</p>
+              <p><button class="button" onclick="calltonarasimha()">Contact</button></p>
+            </div>
+          </div>
+        </div>
+
+
+
+       
+
+
+        <script>
+function calltopradeep(){
+
+  var v= confirm("Are u sure?");  
+
+  if (v == true) {
+    alert("calling...")
+    setTimeout(() => {
+      alert("sorry, try in whatsapp.")
+    },2000);
+    
+  } else {
+    alert("cancel");
+  }
+
+}
+
+function calltonarasimha(){
+
+var v= confirm("Are u sure?");  
+
+if (v == true) {
+  alert("Calling......");
+  setTimeout(() => {
+      alert("sorry, try in whatsapp.")
+    },2000);
+} else {
+  alert("cancel");
+}
+
+}
+
+
+   </script>
+</body>
+</html>

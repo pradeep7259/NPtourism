@@ -1,0 +1,314 @@
+body{
+    overflow-x: hidden;
+}
+
+#nptitle:hover{
+       color: darkgoldenrod;
+}
+#footerimg1{
+    transition: all 1s linear 0s;
+
+}
+
+#footerimg1:hover{
+    transform: scale(1.1,1.1);
+    border: 2px rgb(63, 240, 9) solid;
+
+}
+
+#footerimg2{
+    transition: all 1s linear 0s;
+
+}
+
+#footerimg2:hover{
+    transform: scale(1.1,1.1);
+    border: 2px rgb(63, 240, 9) solid;
+}#footerimg3{
+    transition: all 1s linear 0s;
+
+}
+
+#footerimg3:hover{
+    transform: scale(1.1,1.1);
+    border: 2px rgb(63, 240, 9) solid;
+
+}#footerimg4{
+    transition: all 1s linear 0s;
+
+}
+
+#footerimg4:hover{
+    transform: scale(1.1,1.1);
+    border: 2px rgb(63, 240, 9) solid;
+
+}
+
+#insta
+{
+    transition: all 1s linear 0s;
+    position: relative;
+    right: 30px;
+
+}
+#insta:hover{
+    transform: scale(1.2,1.2);
+    border: 2px rgb(224, 47, 47) solid;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    
+
+}
+#wtsup
+{
+    transition: all 1s linear 0s;
+    position: relative;
+
+    right: 15px;
+
+}
+#wtsup:hover{
+    transform: scale(1.2,1.2);
+    border: 2px rgb(224, 47, 47) solid;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    
+
+}
+#teli
+{
+    transition: all 1s linear 0s;
+    
+
+
+}
+#teli:hover{
+    transform: scale(1.2,1.2);
+    border: 2px rgb(224, 47, 47) solid;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+
+
+/* footer part starts */
+
+#footer{
+    height: 300px;
+    width: 100%;
+    border: 2px solid rgb(83, 85, 104);
+    position: relative;
+    top: 50px;
+}
+#footer:hover{
+    border: 2px solid red;
+}
+
+#lead{
+    position: relative;
+    top: 50px;
+}
+#lead:hover{
+
+      color: aliceblue;
+}
+#mt-5{
+    position: relative;
+    top: 30px;
+}
+#mt-5:hover{
+    color: aliceblue;
+}
+#ftimage{
+    position: relative;
+    top: -250px;
+    height: 400px;
+    transition: all 1s linear 0s;
+}
+#ftimage:hover{
+ transform: scale(1.1,1.1);
+}
+
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* The grid: Three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    transition: all 1s linear 0s;
+    border: 1px rgb(3, 3, 3) solid;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+
+
+  }
+
+  .column:hover{
+    transform: scale(1.1,1.1);
+    border-color: rgb(255, 255, 255);
+    
+     
+  }
+  .column1{
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    
+  }
+  
+  .containerTab {
+    padding: 20px;
+    color: white;
+    position: relative;
+    bottom: 500px;
+   
+  }
+
+  
+  .containerTab1 {
+    padding: 20px;
+    color: white;
+   
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Closable button inside the container tab */
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .closebtn1 {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+  .chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+  
+  .chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
